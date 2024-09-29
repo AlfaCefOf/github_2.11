@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+header {
+    width: 1349px;
+    height: 1024px;
+    background-image: url('./img/image\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tuch1 {
+    width: 243px;
+    background-color: #009FF5B5;
+    box-shadow: 0px 4px 4px 0px #DAD3FF;
+    padding: 14px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    margin-left: 68px;
+}
+
+.img1 {
+    width: 32px;
+    height: 32px;
+    margin-left: 19px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    color: white;
+    width: 151px;
+}
+
+.left-head {
+    display: flex;
+    align-items: center;
+}
+
+.left-head .p2 {
+    display: flex;
+    align-items: center;
+    color: #D5D5D6;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    margin-left: 35px;
+}
+
+.right-head select {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #D5D5D6;
+    background-color: transparent;
+    border: none;
+}
+
+.players-in {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 193px;
+}
+
+.in-player {
+    padding-top: 163px;
+    width: 100vh;
+    margin: 0 auto;
+}
+
+.p3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #0047FF;
+    width: 100vh;
+    background-color: #FFC611;
+    border: 11px solid #5A5555;
+    border-radius: 50px;
+    padding: 15px 0;
+    width: 604px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+    padding-top: 132px;
+}
+
+.card1 {
+    width: 361px;
+    height: 420px;
+    background-color: #1F1F1F;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+}
+
+.gamers {
+    width: 361px;
+    height: 353px;
+}
+
+.in-cs {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42.19px;
+    text-shadow: 0px 4px 4px #FFC200;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+}
+
+.card2 {
+    width: 360px;
+    height: 420px;
+    background-color: #1F1F1F;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+}
+
+main {
+    background-color: black;
+    height: 1042px;
+}
+
+.text1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    text-shadow: 0px 4px 4px #FFFFFF;
+    color: #5A5555;
+    padding-top: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    width: 571px;
+    height: 305px;
+}
+
+.information1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    padding-top: 58px;
+}
+
+.p4 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 31.64px;
+    color: #FFFFFF;
+}
+
+.in-info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    row-gap: 50px;
+}
+
+.read1 {
+    width: 278px;
+    padding: 14px 0;
+    background-color: #FFC200;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+    border: none;
+    color: black;
+    text-shadow: 0px 4px 4px#040404CF;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31.64px;
+}
+
+.read1:hover {
+    width: 278px;
+    padding: 14px 0;
+    background-color: #535353;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+    border: none;
+    color: white;
+    text-shadow: 0px 4px 4px #040404CF;
+}
+
+.information2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    padding-top: 168px;
+}
+
+footer {
+    background-color: #FFC611;
+    padding: 51px 0;
+}
+
+.home-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.telegram {
+    width: 45px;
+    height: 45px;
+}
+
+.instagram {
+    width: 42.5px;
+    height: 42.5px;
+}
+
+.facebook {
+    width: 44px;
+    height: 44px;
+}
+
+.right-footer {
+    display: flex;
+    gap: 40px;
+}
+
+.cs2 {
+    width: 101px;
+    height: 55px;
+
+}
